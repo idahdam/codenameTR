@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Control.gd" type="Script" id=1]
+[ext_resource path="res://FONT/8-BIT WONDER.TTF" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 2 )
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1285.0
+margin_bottom = 721.0
+color = Color( 1, 1, 1, 0.294118 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 485.98
+margin_top = 137.387
+margin_right = 805.98
+margin_bottom = 177.387
+custom_fonts/font = SubResource( 1 )
+text = "PAUSEEED"
+__meta__ = {
+"_edit_use_anchors_": false
+}
